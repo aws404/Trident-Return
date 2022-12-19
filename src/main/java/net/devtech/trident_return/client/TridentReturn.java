@@ -1,4 +1,4 @@
-package net.devtech.trident_return;
+package net.devtech.trident_return.client;
 
 import java.util.Objects;
 

@@ -1,10 +1,10 @@
-package net.devtech.trident_return.mixin;
+package net.devtech.trident_return.client.mixin;
 
 import java.util.concurrent.CompletableFuture;
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectMaps;
-import net.devtech.trident_return.TridentReturn;
-import net.devtech.trident_return.TridentReturnConfig;
+import net.devtech.trident_return.client.TridentReturn;
+import net.devtech.trident_return.client.TridentReturnConfig;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

@@ -1,6 +1,6 @@
-package net.devtech.trident_return.mixin;
+package net.devtech.trident_return.client.mixin;
 
-import net.devtech.trident_return.TridentReturn;
+import net.devtech.trident_return.client.TridentReturn;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -9,11 +9,12 @@
   ],
   "license": "LGPL-3.0",
   "icon": "assets/trident_return/icon.png",
-  "environment": "client",
+  "environment": "*",
   "mixins": [
-    "trident_return.mixins.json"
+    "trident_return.mixins.json",
+    "trident_return_server.mixins.json"
   ],
   "entrypoints": {
-    "modmenu": ["net.devtech.trident_return.TridentReturn"]
+    "modmenu": ["net.devtech.trident_return.client.TridentReturn"]
   }
 }

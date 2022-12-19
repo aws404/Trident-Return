@@ -1,10 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.devtech.trident_return.mixin",
+  "package": "net.devtech.trident_return.client.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": [
-  ],
   "client": [
     "TridentItemMixin_CaptureSlot",
     "ClientPlayNetworkHandlerMixin_ReturnToCorrectSlot"
